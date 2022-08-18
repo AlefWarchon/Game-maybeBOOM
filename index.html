@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>maybeBOOM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="intro">
+      <img id="boomDecorationIntro" src="images/boomDecoration.png" alt="Orange explosion" />
+      <h1 id="mainH1">maybeBOOM</h1>
+      <p>Adivinhe o número do desarme!</p>
+      <form>
+        <button id="buttonOne">Jogar agora</button>
+      </form>
+      <img class="imageBombOne" src="images/bomb.png" alt="Bomb" />
+    </div>
+    
+    <div class="game hide">
+      <audio id="audioGame">
+        <source src="sound/musicGame.mp3" type="audio/mpeg">
+      </audio>
+      <img id="textBorder" src="images/imgTextBorder.png" alt="Text border image" />
+      <p id="textIntro">
+        O estagiário acionou a bomba e não sabe como desarmar. 
+        Ele lembra apenas que o número para desarmar é de 1 a 10.
+      </p>
+      <img id="boomDecorationGame" src="images/boomDecoration.png" alt="Orange explosion" />
+      <h1 id="gameH1">maybeBOOM</h1>
+      <img id="imgSquareBomb" src="images/imgTextBorder.png" alt="Text border image" />
+      <img id="imagebombTwo" src="images/bomb.png" alt="Bomb">
+      <p id="textInput">Digite o número no espaço abaixo:</p>
+      <form>
+      <input type="number" id="inputNumber">
+      <button id="buttonTwo">Tentar</button>
+      </form>
+      <img id="imgTextNumber" src="images/imgTextBorder.png" alt="Text border image" />
+      <p id="textIntroTwo">Digite um número de 1 a 10 para tentar desarmar a bomba antes dela explodir.</p>
+    </div>
+
+    <div class="gameOver hide">
+      <img id="gameOverImg" src="images/gameOver.png" 
+      alt="game over message with a skull using an exploding notebook" />
+      <img id="explosionBoom" src="images/explosionBoom.png" alt="huge explosion" />
+      <form>
+      <button id="buttonThree">Jogar novamente</button>
+      </form>
+      <img id="buum" src="images/buum.png" alt="buum" />
+    </div>
+
+    <div class="ninjaWin hide">
+      <h1 id="textNinja">Like a ninja! Você conseguiu adivinhar o número de primeira!</h1>
+      <img id="ninjaImg" src="images/imgNinja.png" alt="ninja head" />
+      <form>
+      <button id="buttonFour">Voltar ao início</button>
+      </form>
+    </div>
+
+    <div class="winScreen hide">
+      <h1 id="winText">Parabéns, você conseguiu adivinhar o número em tentativas!</h1>
+      <img id="winImg" src="images/congratulations.png" 
+      alt="one star by giving a thumbs up" />
+      <form>
+      <button id="buttonFive">Voltar ao início</button>
+      </form>
+    </div>
+  </main>
+   <script src="script.js"></script>
+  </body>
+</html>
