@@ -7,7 +7,7 @@ I had the idea to create this game based on a game of guess a number from 1 to 1
 <br/>
 I wanted to create this game by putting an option to lose and not only to win. 
 <br/>
-I also did the complete design of all screens and chose the appropriate sounds for each situation.
+I also did the complete design of all screens (except for the images) and chose the appropriate sounds for each situation.
 </p>
 
 <h3 align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learnings :open_book:</h3>
